@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 
 // ⚠️ CONFIGURACIÓN - Pon tu token aquí
-const BOT_TOKEN = 'MTQ2Mjk4OTA2NzkwNTE0Mjg3Nw.G3BGjn.vXwUNaPzibkdNXIgWCKY5MkWsk9XPf6s2X9wPo';
+const BOT_TOKEN = 'MTQ2Mjk4OTA2NzkwNTE0Mjg3Nw.Ga4IT-.y2riKFoXjPl1rLsSwHJBdRqoJT8BxfkADhMHbQ';
 
 // URL del webhook de Floot
 const FLOOT_WEBHOOK_URL = 'https://5a86614e-f2a4-47b6-b2e1-c747049dc33e.sandbox.floot.app/_api/webhook/discord';
