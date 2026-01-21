@@ -11,14 +11,14 @@ const client = new Client({
 });
 
 // ⚠️ IMPORTANTE: Reemplaza con tu token real
-const BOT_TOKEN = 'MTQ2Mjk4OTA2NzkwNTE0Mjg3Nw.GSSXWg.X0gl-hdljiMm8rwaJ3K0KrjxI2P3LVMJu8HtxA';
-const CLIENT_ID = '1462989067905142877'; // ID de la aplicación del bot
+const BOT_TOKEN = 'TU_BOT_TOKEN_AQUI';
+const CLIENT_ID = 'TU_CLIENT_ID_AQUI'; // ID de la aplicación del bot
 
 // ID del canal donde enviar bienvenidas (opcional)
-const WELCOME_CHANNEL_ID = '1458473769239707820';
+const WELCOME_CHANNEL_ID = '';
 
 // 🎭 ID del rol que se asigna durante el turno (opcional)
-const SHIFT_ROLE_ID = '1463346510094794935'; // Pon aquí el ID del rol "En turno"
+const SHIFT_ROLE_ID = ''; // Pon aquí el ID del rol "En turno"
 
 // Mensaje de bienvenida personalizado
 const WELCOME_MESSAGE = `¡Bienvenido/a {user} a {server}! 🎉
@@ -346,3 +346,4 @@ client.on('interactionCreate', async (interaction) => {
 client.login(BOT_TOKEN)
   .then(() => console.log('🚀 Iniciando conexión...'))
   .catch(err => console.error('❌ Error al conectar:', err));
+
